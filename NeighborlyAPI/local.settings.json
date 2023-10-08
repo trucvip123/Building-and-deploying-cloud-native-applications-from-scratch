@@ -1,11 +1,12 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "APPINSIGHTS_INSTRUMENTATIONKEY": "c084165f-54f9-4051-ad05-e3b3614b9e52",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "0dc68500-8e37-438f-9ee7-1eb5041f4fea",
     "FUNCTIONS_WORKER_RUNTIME": "python",
-    "FUNCTIONS_EXTENSION_VERSION": "~3",
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=trucnvstorage;AccountKey=E6UXBfliCeFMNYf9kas9iw9xDfMA6fe+JRvRDZK4uBR/7Zzrdf75DZ47v/DNC88MewCyzJax+GMj+AStsKvQQw==",
-    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=trucnvstorage;AccountKey=E6UXBfliCeFMNYf9kas9iw9xDfMA6fe+JRvRDZK4uBR/7Zzrdf75DZ47v/DNC88MewCyzJax+GMj+AStsKvQQw==",
-    "WEBSITE_CONTENTSHARE":"trucnvfunctionapp87567175b859"
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=trucnvstorage;AccountKey=RYccYi5k8rL8+kd7DGMItS6S4CEtc16HgeBW7sgZS0bU/+dXyzXJbCfYMRlTchhsmE2Gk1wOBXtW+ASt6IF0sg==",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=trucnvstorage;AccountKey=RYccYi5k8rL8+kd7DGMItS6S4CEtc16HgeBW7sgZS0bU/+dXyzXJbCfYMRlTchhsmE2Gk1wOBXtW+ASt6IF0sg==",
+    "WEBSITE_CONTENTSHARE":"trucnvfunctionappe74db8ffca42",
+    "MyDbConnection": "mongodb://trucnvcosmosdb:FbjYwEAy2lsn7THQrhxA3uT9h0HOWTKtSFVQssbLGUdKGg0Epps4Zfy8Bi7dWFJHVUtAsQAM3EKRACDbW2X8HA==@trucnvcosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@trucnvcosmosdb@"
   }
 }

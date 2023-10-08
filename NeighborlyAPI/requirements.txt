@@ -1,2 +1,6 @@
-azure-functions==1.2.1
-pymongo==3.10.1
+azure-functions==1.9.0
+azure-cosmos==4.2.0
+azure-cli-core==2.34.1
+pymongo==4.5.0
+Flask==1.1.2
+requests==2.23.0

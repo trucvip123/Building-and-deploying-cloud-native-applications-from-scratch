@@ -1,6 +1,8 @@
 import azure.functions as func
 import pymongo
 from bson.objectid import ObjectId
+import os
+
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
 
@@ -9,7 +11,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     if request:
         try:
-            url = "mongodb://trucnvcosmosdb:IAnqRxSOiYQLsLBnDbM3wKRIJENvIDF6LLLUgSSquIA4tfuazjUWWaE3D3QWWm8tiV8jZh1x00qkACDbVxlWcg==@trucnvcosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@trucnvcosmosdb@=="  # TODO: Update with appropriate MongoDB connection information
+            url = os.environ["MyDbConnection"]
             client = pymongo.MongoClient(url)
             database = client['dbo']
             collection = database['advertisements']
